@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<style type="text/css">
+
+div#fist{
+	text-align: center;
+ 	border:0px;}
+
+ li strong.sansserif{
+ 	font-family:Impact, Charcoal, sans-serif;
+ 	font-style: italic;
+    font-weight: normal;
+  
+ }
+
+
+</style>
+
+<style > 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #696969;
+
+}
+s
+.dropbtn{
+    padding: 10px 10px;
+	text-align:right;
+    font-size: 5px;
+    border: 0px;
+   -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+	.dropdown {
+    position:absolute;
+    left:1px;
+    top:1px
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+
+
+    right: 1260px;
+    background-color: #FFFFFF;
+    min-width: 10px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: white;
+    
+    padding: 20px 50px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #696969}
+
+.dropdown:hover 
+.dropdown-content {
+    display: block;
+}
+
+.dropdown:hover 
+.dropbtn {
+   background-color: #696969;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 
+    rgba(0,0,0,0.19);
+}
+ 
+
+
+
+
+/*#myCanvas0 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+ }#myCanvas0:hover {opacity: 0.85;}*/
+
+
+#myCanvas1{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+ }#myCanvas1:hover {opacity: 0.85;}
+
+#myCanvas2{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }#myCanvas2:hover {opacity: 0.85;}
+
+#myCanvas3{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }#myCanvas3:hover {opacity: 0.85;}
+
+#myCanvas5{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }#myCanvas5:hover {opacity: 0.85;}
+
+
+
+
+
+
+</style>
+
+
+
+</head>
+
+
+<body>
+
+
+<ul><div class="dropdown" style="float:left;">
+
+	 <button class="dropbtn">
+		 <img src="/Users/odeile/Desktop/odeile_tools4/1.png" alt="Trolltunga Norway" width="80" height="30">
+        </button>
+
+  <div class="dropdown-content" style="left:0px;font-size:16px;border:1px;text-align:center">
+
+
+    <li><strong class="sansserif">
+    	<a href="file:///Users/odeile/Desktop/odeile_tools4/odeileLight.html">
+    		Light
+    	</a></strong></li>
+
+
+
+   <li><strong class="sansserif"> <a href="file:///Users/odeile/Desktop/odeile_tools4/odeileDim.html">Dim</a></strong></li>
+    <li><strong class="sansserif"><a href="file:///Users/odeile/Desktop/odeile_tools4/odeileHalf.html">Half</a></strong></li>
+   
+   <li><strong class="sansserif"> <a href="file:///Users/odeile/Desktop/odeile_tools4/odeileD.html">D</a></strong></li>
+  </div>
+	</ul>
+
+
+	<canvas id="myCanvas0" width="1260" height="580" style="border:0px solid #c3c3c3;">
+ </canvas>
+ <script >
+var c=document.getElementById("myCanvas0");//first img
+var ctx=c.getContext("2d");
+var img=new Image()
+img.src="/Users/odeile/Desktop/odeile_tools4/img/11.jpg"//dizhi
+ctx.drawImage(img,0,0);
+ctx.font="15px Apple Chancery";
+ctx.fillStyle="white";
+ctx.fillText("2017.5.24",1160,545);
+
+
+
+
+ </script>
+
+
+
+
+
+
+
+
+<a href="file:///Users/odeile/Desktop/odeile_tools4/odeileDim.html">
+<canvas id="myCanvas1" width="1260" height="580" style="border:0px solid #c3c3c3;">
+ </canvas>
+ <script >
+var c=document.getElementById("myCanvas1");
+var ctx=c.getContext("2d");
+var img=new Image()
+img.src="/Users/odeile/Desktop/odeile_tools4/img/12.jpg"//dizhi
+ctx.drawImage(img,0,0);
+ctx.font="15px Apple Chancery";
+ctx.fillStyle="white";
+ctx.fillText("2017.11.26",1160,545);
+ctx.font="30px Apple Chancery";
+ctx.fillText("DIM.",1070,545);
+
+ </script>
+</a>  
+
+
+
+
+<a href="file:///Users/odeile/Desktop/odeile_tools4odeileLight.html">
+<canvas id="myCanvas2" width="1260" height="580" style="border:0px solid #c3c3c3;">
+ </canvas>
+ <script >
+var c=document.getElementById("myCanvas2");
+var ctx=c.getContext("2d");
+var img=new Image()
+img.src="/Users/odeile/Desktop/odeile_tools4/img/13.jpg"//dizhi
+ctx.drawImage(img,0,0);
+ctx.font="15px Apple Chancery";
+ctx.fillStyle="white";
+ctx.fillText("2017.04.28",1160,545);
+ctx.font="30px Apple Chancery";
+ctx.fillText("LIGHT.",1050,545);
+
+ </script>
+</a>
+	
+
+<a href="file:///Users/odeile/Desktop/odeile_tools4/odeileHalf.html">
+<canvas id="myCanvas3" width="1260" height="580" style="border:0px solid #c3c3c3;">
+ </canvas>
+ <script >
+var c=document.getElementById("myCanvas3");
+var ctx=c.getContext("2d");
+var img=new Image()
+img.src="/Users/odeile/Desktop/odeile_tools4/img/14.jpg"//dizhi
+ctx.drawImage(img,0,0);
+ctx.font="15px Apple Chancery";
+ctx.fillStyle="black";
+ctx.fillText("2016.12.17",115,555);
+ctx.font="30px Apple Chancery";
+ctx.fillText("HALF.",20,555);
+
+ </script>
+</a>
+
+
+	
+
+<canvas id="myCanvas5" width="1260" height="580" style="border:0px solid #c3c3c3;">
+ </canvas>
+ <script >
+var c=document.getElementById("myCanvas5");
+var ctx=c.getContext("2d");
+var img=new Image()
+img.src="/Users/odeile/Desktop/odeile_tools4/img/15.jpg"//dizhi
+ctx.drawImage(img,0,0);
+
+ </script>
+	
+	
+	<br>
+	<br>
+	<a href=""></a>
+	<canvas id= "myCanvas1.1" width="1260" height="700" style="border:0px solid #c3c3c3;"></canvas>
+	<script >
+
+
+
+
+	var c=document.getElementById("myCanvas1.1");
+	var ctx=c.getContext("2d");
+	var img=new Image()
+img.src="/Users/odeile/Desktop/odeile_tools4/img/1.1.jpg"//dizhi
+ctx.drawImage(img,60,30,320,320);
+	//ctx.fillStyle="#FAF0E6";
+	//ctx.fillRect(60,30,320,320);
+
+
+	var c=document.getElementById("myCanvas1.1");
+	var ctx=c.getContext("2d");
+	var img=new Image()
+	img.src="/Users/odeile/Desktop/odeile_tools4/img/1.2.jpg"//dizhi
+	ctx.drawImage(img,460,30,480,320);
+	//ctx.fillStyle="#FAF0E6";
+	//ctx.fillRect(460,30,480,320);
+
+	var c=document.getElementById("myCanvas1.1");
+	var ctx=c.getContext("2d");
+	var img=new Image()
+	img.src="/Users/odeile/Desktop/odeile_tools4/img/1.3.jpg"//dizhi
+	ctx.drawImage(img,980,65,250,350);
+	//ctx.fillStyle="#FAF0E6";
+	//ctx.fillRect(980,65,250,350);
+
+	var c=document.getElementById("myCanvas1.1");
+	var ctx=c.getContext("2d");
+	var img=new Image()
+	img.src="/Users/odeile/Desktop/odeile_tools4/img/1.4.jpg"//dizhi
+	ctx.drawImage(img,170,385,500,350);
+	//ctx.fillStyle="#FAF0E6";
+	//ctx.fillRect(170,385,500,350);
+
+var c=document.getElementById("myCanvas1.1");
+	var ctx=c.getContext("2d");
+	var img=new Image()
+	img.src="/Users/odeile/Desktop/odeile_tools4/img/1.5.jpg"//dizhi
+	ctx.drawImage(img,930,445,300,220);
+	//ctx.fillStyle="#FAF0E6";
+	//ctx.fillRect(930,445,300,220);	
+
+	var c=document.getElementById("myCanvas1.1");
+	var ctx=c.getContext("2d");
+	var img=new Image()
+	img.src="/Users/odeile/Desktop/odeile_tools4/img/1.8.png"//dizhi
+	ctx.drawImage(img,700,380,150,340);
+	//ctx.fillStyle="#FAF0E6";
+	//ctx.fillRect(930,445,300,220);	
+
+
+	/*-----------------------text-------------------------*/
+
+	var c=document.getElementById("myCanvas1.1");
+	var ctx=c.getContext("2d");
+	ctx.font="46px Didot";
+	ctx.fillText("H A L F",250,190);
+
+
+	var c=document.getElementById("myCanvas1.1");
+	var ctx=c.getContext("2d");
+	ctx.font="46px Didot";
+	ctx.fillText("FREEZE",1050,190);
+
+
+	var c=document.getElementById("myCanvas1.1");
+	var ctx=c.getContext("2d");
+	ctx.font="80px Didot";
+	ctx.fillText("D",870,340);
+
+	var c=document.getElementById("myCanvas1.1");
+	var ctx=c.getContext("2d");
+	ctx.font="85px Didot";
+	ctx.fillText("D",190,680);
+
+	var c=document.getElementById("myCanvas1.1");
+	var ctx=c.getContext("2d");
+	ctx.font="40px Didot";
+	ctx.fillText("odeileodeile",880,530);
+
+
+
+
+
+	/*-----------------------text-------------------------*/
+	
+
+
+
+
+</script>
+
+
+
+<br>
+<br>
+<br>
+<canvas id= "myCanvasX" width="1260" height="250" style="border:0px solid #c3c3c3;"></canvas>
+<script>
+
+
+var c=document.getElementById("myCanvasX");
+	var ctx=c.getContext("2d");
+	ctx.globalAlpha= 0.57;
+	ctx.fillStyle="#303030 ";
+	ctx.fillRect(0,0,300,145);
+	ctx.fill();
+
+var c=document.getElementById("myCanvasX");
+	var ctx=c.getContext("2d");
+	ctx.globalAlpha= 0.57;
+	ctx.fillStyle="#303030 ";
+	ctx.fillRect(0,10,1000,200);
+	ctx.fill(); 
+
+var c=document.getElementById("myCanvasX");
+	var ctx=c.getContext("2d");
+	ctx.globalAlpha= 0.57;
+	ctx.fillStyle="#303030 ";
+	ctx.fillRect(0,40,1260,300);
+	ctx.fill(); 
+
+var c=document.getElementById("myCanvasX");
+	var ctx=c.getContext("2d");
+	ctx.globalAlpha= 0.57;
+	ctx.fillStyle="#303030 ";
+	ctx.fillRect(0,180,100,80);
+	ctx.fill(); 
+
+
+var c=document.getElementById("myCanvasX");
+	var ctx=c.getContext("2d");
+	ctx.globalAlpha= 0.57;
+	ctx.fillStyle="#303030 ";
+	ctx.fillRect(140,110,1200,200);
+	ctx.fill(); 
+
+var c=document.getElementById("myCanvasX");
+	var ctx=c.getContext("2d");
+	ctx.globalAlpha= 0.9;
+	ctx.fillStyle="#000000 ";
+	ctx.fillRect(0,60,1260,20);
+	ctx.fill(); 
+
+var c=document.getElementById("myCanvasX");
+	var ctx=c.getContext("2d");
+	ctx.globalAlpha= 0.57;
+	ctx.fillStyle="#303030";
+	ctx.fillRect(960,80,130,60);
+	ctx.fill(); 
+
+
+var c=document.getElementById("myCanvasX");
+	var ctx=c.getContext("2d");
+	ctx.globalAlpha= 0.57;
+	ctx.fillStyle="#303030";
+	ctx.fillRect(1030,90,250,120);
+	ctx.fill(); 
+
+
+var c=document.getElementById("myCanvasX");
+	var ctx=c.getContext("2d");
+	ctx.globalAlpha= 0.57;
+	ctx.fillStyle="#303030";
+	ctx.fillRect(1180,0,40,60);
+	ctx.fill(); 
+
+
+
+/*-----------------------text-------------------------*/
+
+
+
+	var c=document.getElementById("myCanvasX");
+	var ctx=c.getContext("2d");
+	ctx.fillStyle='#FFFFFF';
+	ctx.font="30px Didot";
+	ctx.fillText("find.content informaion: PROFLIE",200,150);
+
+
+
+/*-----------------------text-------------------------*/
+
+</script>
+
+	
+
+
+
+
+
+
+</body>
+
+
+</html>
